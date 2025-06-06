@@ -1,0 +1,11 @@
+packages:
+  - openssl-devel
+  - python3
+  - "@nodejs:16/development"
+moduleEnable:
+  - nodejs:16/development
+arches:
+- x86_64
+contentOrigin:
+  repofiles:
+  - ./redhat.repo

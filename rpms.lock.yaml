@@ -1,0 +1,318 @@
+arches:
+- arch: x86_64
+  module_metadata:
+  - checksum: sha256:a6f9edffd081fc8ff6d4f56b82e3fcc604eb32c142d75e088ead95d4a7177b63
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 733128
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/a6f9edffd081fc8ff6d4f56b82e3fcc604eb32c142d75e088ead95d4a7177b63-modules.yaml.gz
+  packages:
+  - checksum: sha256:4545a812cbc2bd7d3da77f3420ce856a459c7e97f067e488e75634bf1d35d88f
+    evr: 11.13-2.el8
+    name: annobin
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 995652
+    sourcerpm: annobin-11.13-2.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/a/annobin-11.13-2.el8.x86_64.rpm
+  - checksum: sha256:fa397675670c811fba65c510d909b6cb4f9908f1c0a12329159e810cdba002c8
+    evr: 1.0.6-3.el8
+    name: brotli-devel
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 31836
+    sourcerpm: brotli-1.0.6-3.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/b/brotli-devel-1.0.6-3.el8.x86_64.rpm
+  - checksum: sha256:adc7334610bcbd8eda9bce5bce1be4195c34ad8cdfbea8fdb32ffd268b424569
+    evr: 0.12-10.el8
+    name: dwz
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 111368
+    sourcerpm: dwz-0.12-10.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dwz-0.12-10.el8.x86_64.rpm
+  - checksum: sha256:17654247510d6359946dcbce9585ee850eafb59375357e1572a77f8e763284e9
+    evr: 3-3.el8
+    name: efi-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 22752
+    sourcerpm: efi-rpm-macros-3-3.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/e/efi-srpm-macros-3-3.el8.noarch.rpm
+  - checksum: sha256:2fa86ba2439918b8a7820aa6f9c8d41769e9909333bdf795c3210bd573b01f84
+    evr: 8.5.0-20.el8
+    name: gcc-plugin-annobin
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 36472
+    sourcerpm: gcc-8.5.0-20.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/gcc-plugin-annobin-8.5.0-20.el8.x86_64.rpm
+  - checksum: sha256:eded956a5e2e704960f5d8a2076b908d213a6de77fd2ced5a6b1a5ca2463a451
+    evr: 1.4.2-7.el8
+    name: ghc-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 9596
+    sourcerpm: ghc-srpm-macros-1.4.2-7.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/ghc-srpm-macros-1.4.2-7.el8.noarch.rpm
+  - checksum: sha256:2d231afd68c0fe87001f4377c5f535b1cbbc7b01c26a650afa7b6c7d96bb715c
+    evr: 2-17.el8
+    name: go-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 12940
+    sourcerpm: go-srpm-macros-2-17.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/go-srpm-macros-2-17.el8.noarch.rpm
+  - checksum: sha256:ae1135ef754687b78ea0fdd47c0e3820b416c2554a2d3614deffb548b509fd70
+    evr: 1:16.20.2-4.module+el8.9.0+21536+8fdee1fb
+    name: nodejs-devel
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 198639
+    sourcerpm: nodejs-16.20.2-4.module+el8.9.0+21536+8fdee1fb.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/n/nodejs-devel-16.20.2-4.module+el8.9.0+21536+8fdee1fb.x86_64.rpm
+  - checksum: sha256:d1ed60b8b11b73044444646027a83bef466d56fcadc7dba033aa6affb9f730fc
+    evr: 26-1.module+el8.9.0+19858+c237a2cf
+    name: nodejs-packaging
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 25195
+    sourcerpm: nodejs-packaging-26-1.module+el8.9.0+19858+c237a2cf.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/n/nodejs-packaging-26-1.module+el8.9.0+19858+c237a2cf.noarch.rpm
+  - checksum: sha256:604b5258c861e7922bc82a69694fc8e751a96b98611abe6ce553dfbeaa69f617
+    evr: 5-4.el8
+    name: ocaml-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 9680
+    sourcerpm: ocaml-srpm-macros-5-4.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/o/ocaml-srpm-macros-5-4.el8.noarch.rpm
+  - checksum: sha256:6c7a4bc1c7600d80f61fcdadd89ffb6f2bad77eab410c48fe74209edda0189a5
+    evr: 2-2.el8
+    name: openblas-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 8196
+    sourcerpm: openblas-srpm-macros-2-2.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/o/openblas-srpm-macros-2-2.el8.noarch.rpm
+  - checksum: sha256:24afe3f81bf486b0524b1f90efeca1c640efe87948ab5e959b37442d0f1bb07c
+    evr: 1-25.el8
+    name: perl-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 11092
+    sourcerpm: perl-srpm-macros-1-25.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/perl-srpm-macros-1-25.el8.noarch.rpm
+  - checksum: sha256:810df7a909a322ffee3b818e5a41c99863262ce00ce81f93a9d593c23135859a
+    evr: 3-45.el8
+    name: python-rpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 16296
+    sourcerpm: python-rpm-macros-3-45.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python-rpm-macros-3-45.el8.noarch.rpm
+  - checksum: sha256:c015d6262fd9b477d6fd2f9c510b28b1ab3f9543d361049d11e185cdd99bee46
+    evr: 3-45.el8
+    name: python-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 16484
+    sourcerpm: python-rpm-macros-3-45.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python-srpm-macros-3-45.el8.noarch.rpm
+  - checksum: sha256:483d2fcaa3ff602bc9eacc6b6f12370212d4eff6c3cc5fbd6cbc3bb9774f7bc0
+    evr: 9.0.3-24.el8
+    name: python3-pip
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 20864
+    sourcerpm: python-pip-9.0.3-24.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python3-pip-9.0.3-24.el8.noarch.rpm
+  - checksum: sha256:7edde891d0389d4158e6a8d54eec4540dab8f97675b7eee374fe9d80e6d049a6
+    evr: 3-45.el8
+    name: python3-rpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 15704
+    sourcerpm: python-rpm-macros-3-45.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python3-rpm-macros-3-45.el8.noarch.rpm
+  - checksum: sha256:ae70c3563e01ae72274faa79215cd6b8d1aecec126a7ee598277998f64c4c804
+    evr: 3.6.8-39.module+el8.10.0+20784+edafcd43
+    name: python36
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 20010
+    sourcerpm: python36-3.6.8-39.module+el8.10.0+20784+edafcd43.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm
+  - checksum: sha256:1d8bd25af35b85b04502dd06345de9123201c50f33814de962ab51a70ee4a71d
+    evr: 5.15.3-1.el8
+    name: qt5-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 10904
+    sourcerpm: qt5-5.15.3-1.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/q/qt5-srpm-macros-5.15.3-1.el8.noarch.rpm
+  - checksum: sha256:388440b104126084e8d8cf3583f13bad57065081017f1fc0202f0a3cd3e64258
+    evr: 131-1.el8
+    name: redhat-rpm-config
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 92708
+    sourcerpm: redhat-rpm-config-131-1.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/r/redhat-rpm-config-131-1.el8.noarch.rpm
+  - checksum: sha256:81195fef7aea05f493be641128414a23782a90a5817240246e5192dfd006dcfa
+    evr: 5-2.el8
+    name: rust-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-rpms
+    size: 9484
+    sourcerpm: rust-srpm-macros-5-2.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/r/rust-srpm-macros-5-2.el8.noarch.rpm
+  - checksum: sha256:6c74c89d64ebb6df294d1fce8366dcdda495fca166407b26ab09e52947500174
+    evr: 5.33-25.el8
+    name: file
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 79196
+    sourcerpm: file-5.33-25.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/f/file-5.33-25.el8.x86_64.rpm
+  - checksum: sha256:357f43c4acc0f87356e559a84496651dc4cd08657c6babaa6f5a15a0e4f8fa88
+    evr: 2.28-236.el8_9.12
+    name: glibc-gconv-extra
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 1625304
+    sourcerpm: glibc-2.28-236.el8_9.12.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.28-236.el8_9.12.x86_64.rpm
+  - checksum: sha256:a9104ca3388b74f665c2648cde81043cc7748bf1ca5a7f2a4148b86013206fc8
+    evr: 9.0.3-24.el8
+    name: platform-python-pip
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 1633024
+    sourcerpm: python-pip-9.0.3-24.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-pip-9.0.3-24.el8.noarch.rpm
+  - checksum: sha256:7392de2e9f983458c589e510b7aec668b370205a5d6d08f9ace906491c8ec903
+    evr: 39.2.0-7.el8
+    name: python3-setuptools
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 166728
+    sourcerpm: python-setuptools-39.2.0-7.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-setuptools-39.2.0-7.el8.noarch.rpm
+  - checksum: sha256:da01d0096a9b85d229a8bd379f3d4e12656e5096573875f2b49b65652683a3c4
+    evr: 3.0-23.el8
+    name: zip
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 276820
+    sourcerpm: zip-3.0-23.el8.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/z/zip-3.0-23.el8.x86_64.rpm
+  source:
+  - checksum: sha256:84e0b05af889bb9034f4bf1f4d42ae32984438fafc9ecdecda945904843cf810
+    evr: 11.13-2.el8
+    name: annobin
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 922736
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/a/annobin-11.13-2.el8.src.rpm
+  - checksum: sha256:057b8fe350276a526b5157bc08b02f1bc7e6c96bd571fd68c2a0fef8a4de785e
+    evr: 0.12-10.el8
+    name: dwz
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 105561
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/d/dwz-0.12-10.el8.src.rpm
+  - checksum: sha256:1ebd20d627c0e9051fdd42a7aecf2451cd3038263ca467c0d19e3b3b1df36fac
+    evr: 3-3.el8
+    name: efi-rpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 25749
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/e/efi-rpm-macros-3-3.el8.src.rpm
+  - checksum: sha256:eb155824dfd32310f6b14f9cc5b3c70e93b6bbfa24224a35210273d92df6f2da
+    evr: 1.4.2-7.el8
+    name: ghc-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 9944
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/g/ghc-srpm-macros-1.4.2-7.el8.src.rpm
+  - checksum: sha256:f7fa862df5147717d2f3fd4c106045b688c04ed340f3a07ab4040eede1d60de8
+    evr: 2-17.el8
+    name: go-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 13410
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/g/go-srpm-macros-2-17.el8.src.rpm
+  - checksum: sha256:122ae0c689636284703eb2e92c2db95aef21ff11b3fd2271058ec4fcdb547728
+    evr: 1:16.20.2-4.module+el8.9.0+21536+8fdee1fb
+    name: nodejs
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 75046451
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/n/nodejs-16.20.2-4.module+el8.9.0+21536+8fdee1fb.src.rpm
+  - checksum: sha256:9d7f777a96a5e1093423700587e5448003d9e33dd263da9c26e87c4b862d7519
+    evr: 26-1.module+el8.9.0+19858+c237a2cf
+    name: nodejs-packaging
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 31255
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/n/nodejs-packaging-26-1.module+el8.9.0+19858+c237a2cf.src.rpm
+  - checksum: sha256:68a1c79cd427980c7ec261d0027de07a61bb2c56a535975d9bab8e935f9c62d7
+    evr: 5-4.el8
+    name: ocaml-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 10047
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/o/ocaml-srpm-macros-5-4.el8.src.rpm
+  - checksum: sha256:eb07703ca25659587d6432a56f4d08ce0f916a0e580a8bd5c98dcfe57be7b3f9
+    evr: 2-2.el8
+    name: openblas-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 8176
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/o/openblas-srpm-macros-2-2.el8.src.rpm
+  - checksum: sha256:7161ecaed4ad9d02675c906b144cc9c86825bf45d67226245ed7defb3d3d2a06
+    evr: 1-25.el8
+    name: perl-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 11428
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/p/perl-srpm-macros-1-25.el8.src.rpm
+  - checksum: sha256:e934bf8a4da68cb56443abc5e3d2b37ef0c7962c3ed6094ea25280b9e3fd7ea9
+    evr: 3-45.el8
+    name: python-rpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 21388
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/p/python-rpm-macros-3-45.el8.src.rpm
+  - checksum: sha256:742fe815ceab5be239283e4a28e4474a2c8f16902d72e18b03e11f4731a721e3
+    evr: 3.6.8-39.module+el8.10.0+20784+edafcd43
+    name: python36
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 19674
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/p/python36-3.6.8-39.module+el8.10.0+20784+edafcd43.src.rpm
+  - checksum: sha256:adaf6580772c9f18afce19becefe0a31c9f62b52f639030fcc9d8f14adee19eb
+    evr: 5.15.3-1.el8
+    name: qt5
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 13914
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/q/qt5-5.15.3-1.el8.src.rpm
+  - checksum: sha256:6d3f982656e1debbb6cff96d96472ef3b2b0024cf9d35b274ec0d5c9a0710b36
+    evr: 131-1.el8
+    name: redhat-rpm-config
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 118640
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/r/redhat-rpm-config-131-1.el8.src.rpm
+  - checksum: sha256:0f53ebd0064e58adbfa1bbd98930964cb86406681dcfd70dabdf932e71191ddc
+    evr: 5-2.el8
+    name: rust-srpm-macros
+    repoid: rhel-8-for-x86_64-appstream-source-rpms
+    size: 18146
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/source/SRPMS/Packages/r/rust-srpm-macros-5-2.el8.src.rpm
+  - checksum: sha256:d269796bbd35c8ef524e4070d347f8b74cf1f10caa1bd4b19c30d69f24761f2a
+    evr: 1.0.6-3.el8
+    name: brotli
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 23835509
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/b/brotli-1.0.6-3.el8.src.rpm
+  - checksum: sha256:8e2cb6df7083719d4d4020c674623a30b19ca692561bab4987eb48e8b6048f9e
+    evr: 5.33-25.el8
+    name: file
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 898515
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/f/file-5.33-25.el8.src.rpm
+  - checksum: sha256:99cc1306e3195077147b7d18c81798d522f4beef2a1709915496c6508a3583a0
+    evr: 8.5.0-20.el8
+    name: gcc
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 65675677
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/g/gcc-8.5.0-20.el8.src.rpm
+  - checksum: sha256:d54913b1504a96d7cda64dbd57ea7977242849eed09cefe72423c4586ef9bcef
+    evr: 2.28-236.el8_9.12
+    name: glibc
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 18176080
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.28-236.el8_9.12.src.rpm
+  - checksum: sha256:0c18dcaadf6e9596e2b939ae9cc75db12df7919a01a204f314df315e384b0d4a
+    evr: 9.0.3-24.el8
+    name: python-pip
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 1380608
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/p/python-pip-9.0.3-24.el8.src.rpm
+  - checksum: sha256:186195f4b935cc07eb8a560ea2d9198e6556122ccf25ef812fb384515ed7387f
+    evr: 39.2.0-7.el8
+    name: python-setuptools
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 867130
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/p/python-setuptools-39.2.0-7.el8.src.rpm
+  - checksum: sha256:0d155f8891909386650b9d6c486231a72c0dad9702eaeb89f0b5a82d2b481ac2
+    evr: 3.0-23.el8
+    name: zip
+    repoid: rhel-8-for-x86_64-baseos-source-rpms
+    size: 1141306
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/z/zip-3.0-23.el8.src.rpm
+lockfileVendor: redhat
+lockfileVersion: 1
