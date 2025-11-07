@@ -36,3 +36,10 @@ ENV NODE_TLS_REJECT_UNAUTHORIZED="0"
 ENV BRAND_TYPE="RedHat"
 USER 65534:65534
 ENTRYPOINT ["node", "/opt/app-root/src/main.js"]
+
+LABEL \
+        "io.k8s.description"="Migration Toolkit for Containers UI" \
+        "io.k8s.display-name"="Migration Toolkit for Containers" \
+        "io.openshift.tags"="migration" \
+        "summary"="Migration Toolkit for Containers UI" \
+        "io.openshift.maintainer.project"="MIG"
