@@ -18,6 +18,8 @@ RUN container-entrypoint bash -c 'BRAND_TYPE=RedHat node .yarn/releases/yarn-*.c
 RUN container-entrypoint bash -c 'NODE_ENV=production node .yarn/releases/yarn-*.cjs install --immutable'
 
 FROM registry.redhat.io/ubi8/nodejs-18-minimal:latest
+USER root
+RUN microdnf -y update && microdnf clean all
 USER 1001
 COPY --from=builder $APP_ROOT/src/dist /opt/app-root/src/staticroot
 COPY --from=builder $APP_ROOT/src/public/favicon.ico /opt/app-root/src/staticroot
